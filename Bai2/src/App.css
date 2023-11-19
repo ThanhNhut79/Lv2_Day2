@@ -57,3 +57,9 @@ header img {
 .content-right p {
   margin-bottom: 30px;
 }
+.content-right button {
+  background-color: yellow;
+  width: 150px;
+  height: 40px;
+  margin-left: 30%;
+}

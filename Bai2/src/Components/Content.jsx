@@ -23,6 +23,13 @@ function Content() {
           <input type="text" placeholder="Email" />
           <label>Phone number</label>
           <input type="text" placeholder="Phone number" />
+          <p>
+            By clicking “Try Row House,” you agree to our Terms and to receive
+            automated marketing calls or texts from or on behalf of Row House at
+            the phone number provided above. Consent is not a condition of
+            purchase. Message and data rates may apply.
+          </p>
+          <button>TRY ROW HOUSE</button>
         </div>
       </div>
     </div>
