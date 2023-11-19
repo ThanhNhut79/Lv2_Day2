@@ -24,12 +24,19 @@ header img {
   z-index: 5;
   top: 30%;
   color: azure;
+  display: flex;
 }
 .content-left {
   width: 30%;
+  margin-right: 250px;
+}
+.content-right {
+  width: 30%;
+  display: inline-block;
 }
 .content-left span {
   font-size: 50px;
+  padding-bottom: 40px;
 }
 .content-left p {
   font-size: 20px;
@@ -37,4 +44,16 @@ header img {
 .footer {
   height: 100px;
   background-color: aqua;
+}
+.content-right span {
+  font-size: 35px;
+  padding-bottom: 40px;
+}
+.content-right input {
+  height: 40px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.content-right p {
+  margin-bottom: 30px;
 }
