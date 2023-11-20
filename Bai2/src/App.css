@@ -6,6 +6,7 @@
 .banner1 img {
   max-width: 100%;
   position: relative;
+  padding-bottom: 60px;
 }
 .app {
   box-sizing: border-box;
@@ -17,17 +18,18 @@ header img {
   padding-top: 40px;
 }
 .container {
-  padding-left: 17%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 .content {
   position: absolute;
   z-index: 5;
-  top: 30%;
+  top: 44%;
   color: azure;
   display: flex;
 }
 .content-left {
-  width: 30%;
+  width: 40%;
   margin-right: 250px;
 }
 .content-right {
@@ -41,25 +43,90 @@ header img {
 .content-left p {
   font-size: 20px;
 }
-.footer {
-  height: 100px;
-  background-color: aqua;
-}
+
 .content-right span {
   font-size: 35px;
   padding-bottom: 40px;
 }
 .content-right input {
-  height: 40px;
+  height: 35px;
   width: 100%;
   margin-bottom: 40px;
 }
 .content-right p {
   margin-bottom: 30px;
 }
+.location-left img {
+  width: 40px;
+
+  padding: 5px 10px 0px 0px;
+}
 .content-right button {
   background-color: yellow;
   width: 150px;
   height: 40px;
   margin-left: 30%;
+}
+#location {
+  height: 40px;
+  width: 278px;
+}
+.location-content {
+  display: flex;
+}
+.location-right {
+  display: block;
+  width: 60%;
+}
+.body-content {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+.content-1 {
+  width: 33%;
+}
+.content-1 span {
+  font-size: 23px;
+}
+.content-2 {
+  width: 33%;
+  display: inline-block;
+  display: grid;
+}
+.content-2 input {
+  height: 30px;
+  width: 50%;
+}
+.footer {
+  background-color: #243746;
+  margin-top: 1px;
+}
+.item-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0px;
+}
+.title-footer {
+  font-size: 25px;
+  color: #ffffff;
+  padding-bottom: 30px;
+}
+.item-footer .item ul li {
+  list-style: none;
+  color: #ffffff;
+  font-size: 18px;
+}
+.footer2-top {
+  display: flex;
+  gap: 11%;
+  padding: 20px 0px 8px 0px;
+}
+.footer2-bot {
+  display: flex;
+  gap: 11.5%;
+}
+.footer2 span {
+  color: #ffffff;
+  font-size: 18px;
 }

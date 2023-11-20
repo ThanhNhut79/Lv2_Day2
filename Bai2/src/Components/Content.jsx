@@ -1,11 +1,11 @@
 import React from "react";
-
+import locationLogo from "/icons8-location-50.png";
 function Content() {
   return (
     <div className="container">
       <div className="content">
         <div className="content-left">
-          <span>Your Exclusive Offer</span>
+          <span>YOUR EXCLUSIVE OFFER</span>
           <p>
             Row House is committed to helping you start a rowing-based fitness
             routine that will improve your health and deliver unparalleled
@@ -15,6 +15,25 @@ function Content() {
         <div className="content-right">
           <span>FIRST CLASS FREE</span>
           <p>*Available at Participating Studios.</p>
+          <div className="location-content">
+            <div className="location-left">
+              <img src={locationLogo} alt="" />
+            </div>
+            <div className="location-right">
+              <a>Your location</a>
+              <select id="location">
+                <option value="volvo">Chealse</option>
+                <option value="saab">Tustin</option>
+                <option value="vw">Hilton HeadW</option>
+                <option value="vw">North Hills</option>
+                <option value="vw">College Station</option>
+                <option value="audi" selected>
+                  Chealse
+                </option>
+              </select>
+              <p>Change City or Zip Code</p>
+            </div>
+          </div>
           <label>First name</label>
           <input type="text" placeholder="First name" />
           <label>Last name</label>
